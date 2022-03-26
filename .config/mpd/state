@@ -1,0 +1,47 @@
+sw_volume: 50
+audio_device_state:1:PipeWire Sound Server
+state: pause
+current: 9
+time: 25.874000
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Fall Out Boy - American Beauty American Psycho/The Kids Aren't Alright - Fall Out Boy.mp3
+1:Fall Out Boy - American Beauty American Psycho/Jet Pack Blues - Fall Out Boy.mp3
+2:girl in red - bad idea!/bad idea!.mp3
+3:girl in red - we fell in love in october/we fell in love in october.mp3
+4:Arctic Monkeys - Whatever People Say I Am, That's What I'm Not/When the Sun goes down.mp3
+5:Arctic Monkeys - Whatever People Say I Am, That's What I'm Not/From the ritz to the rubble.mp3
+6:Arctic Monkeys - Favourite Worst Nightmare/Fluorescent Adolescent.mp3
+7:Arctic Monkeys - Favourite Worst Nightmare/This House Is a Circus.mp3
+8:Arctic Monkeys - Favourite Worst Nightmare/Old Yellow Bricks.mp3
+9:Arctic Monkeys - Favourite Worst Nightmare/505.mp3
+10:Lovejoy - Pebble Brain/Concrete.mp3
+11:Lovejoy - Are You Alright/Taunt.mp3
+12:Lovejoy - Are You Alright/One Day.mp3
+13:Lovejoy - Are You Alright/Sex Sells.mp3
+14:Lovejoy - Are You Alright/Cause for Concern.mp3
+15:Lovejoy - Pebble Brain/Oh Yeah, You Gonna Cry.mp3
+16:Lovejoy - Pebble Brain/Model Buses.mp3
+17:Lovejoy - Pebble Brain/Concrete.mp3
+18:Lovejoy - Pebble Brain/Perfume.mp3
+19:Lovejoy - Pebble Brain/You'll Understand When You're Older.mp3
+20:Lovejoy - Pebble Brain/The Fall.mp3
+21:Lovejoy - Pebble Brain/It's All Futile! It's All Pointless!.mp3
+22:Twenty One Pilots - Blurryface/Ride.mp3
+23:Twenty One Pilots - Blurryface/Fairly Local.mp3
+24:Twenty One Pilots - Blurryface/Polarize.mp3
+25:Twenty One Pilots - Blurryface/Message Man.mp3
+26:Twenty One Pilots - Blurryface/Hometown.mp3
+27:Twenty One Pilots - Trench/Nico And The Niners.mp3
+28:Twenty One Pilots - Trench/Cut My Lip.mp3
+29:Twenty One Pilots - Vessel/Fake You Out.mp3
+30:Twenty One Pilots - Vessel/Kitchen Sink.mp3
+31:Twenty One Pilots - Vessel/Lovely.mp3
+32:Twenty One Pilots - Vessel/Forest.mp3
+playlist_end
