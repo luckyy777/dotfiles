@@ -1,0 +1,3 @@
+mpd &
+sleep 1
+mpDris2 &
