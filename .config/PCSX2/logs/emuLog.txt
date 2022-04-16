@@ -1,0 +1,514 @@
+PCSX2 1.6.0-0- compiled on Oct  7 2021
+Savestate version: 0x9a0e0000
+
+Host Machine Init:
+	Operating System =  Linux 5.16.19-201.fsync.fc35.x86_64 x86_64
+	Physical RAM     =  7345 MB
+	CPU name         =  AMD Ryzen 7 5700U with Radeon Graphics
+	Vendor/Model     =  AuthenticAMD (stepping 01)
+	CPU speed        =  1.796 ghz (16 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  178bfbff 7ed8320b
+	x86EFlags        =  2fd3fbff
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+	SSE4a 
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+Loading plugins from /usr/lib/games/pcsx2...
+	Bound   GS: libGSdx-AVX2.so [GSdx (GCC 11.2.1 AVX2/AVX2) 1.2.0]
+	Bound  PAD: libonepad.so [OnePAD 0 2.0.0]
+	Bound SPU2: libspu2x-2.0.0.so [SPU2-X 2.0.0]
+	Bound CDVD: libCDVDnull.so [CDVDnull Driver 0 0.6.0]
+	Bound  USB: libUSBnull-0.7.0.so [USBnull Driver 0 0.7.0]
+	Bound   FW: libFWnull-0.7.0.so [FWnull Driver 0 0.7.0]
+	Bound DEV9: libdev9ghzdrk-0.4.so [GiGaHeRz's DEV9 Driver 0.4.0]
+Plugins loaded successfully.
+
+(GameDB) 9858 games on record (loaded in 119ms)
+	HotSwapping to new ISO src image!
+HLE Notice: ELF does not have a path.
+
+Initializing plugins...
+	Init GS
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Patches: No CRC found, using 00000000 instead.
+Opening plugins...
+	Opening GS
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: option value of option mesa_glthread ignored.
+Failed to init the freetype face
+	Opening PAD
+	Opening SPU2
+ERROR: Effect is not uploaded! Haptic: Effect not supported by haptic device.
+Request SDL audio driver: pulseaudio
+EGL: Supported extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_MESA_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+OpenGL information. GPU: AMD RENOIR (LLVM 13.0.0, DRM 3.44, 5.16.19-201.fsync.fc35.x86_64). Vendor: AMD. Driver: (Core Profile) Mesa 22.1.0-devel
+INFO: GL_ARB_sparse_texture is NOT SUPPORTED
+INFO: GL_ARB_sparse_texture2 is available
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_compute_shader is available
+INFO: GL_ARB_shader_storage_buffer_object is available
+INFO: GL_ARB_texture_view is available
+INFO: GL_ARB_vertex_attrib_binding is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_multi_bind is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+INFO: GL_ARB_get_texture_sub_image is available
+
+Current Renderer: OpenGL (Hardware renderer)
+Available VRAM/RAM:171MB for textures
+GSdx Lookup CRC:0
+GSdx Lookup CRC:0
+onepad: controller (Xbox One Controller) detected with rumble support, GUID:030000005e040000d102000002010000
+onepad: controller (Microsoft X-Box 360 pad) detected, GUID:03000000de280000ff11000001000000
+	Opening CDVD
+Opened SDL audio driver: pulseaudio
+isoFile open ok: /home/ollie/documents/games/ps2/NASCAR Thunder 2004 (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1650048 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Failed to GetNetAdapter()
+McdSlot 0 [File]: /home/ollie/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/ollie/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+	Bios Found: Europe  v02.30(20/02/2008)  Console
+	BIOS r module not found, skipping...
+	BIOS r module not found, skipping...
+	BIOS e module not found, skipping...
+# Initialize memory (rev:4.00, ctm:196Mhz, cpuclk:147Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2008-0220, IOP info (CPUID=1f, CACH_CONFIG=14000200, 2MB, IOP mode)
+ <20080220-175343,ROMconf,PS20230WC20080220.bin:11824>
+# Total accessable memory size: 32 MB (B:2:8:0) (400:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+ERROR: Effect is not uploaded! Haptic: Effect not supported by haptic device.
+ERROR: Effect is not uploaded! Haptic: Effect not supported by haptic device.
+# Initialize Scratch Pad ...
+# Initialize Done.
+onepad: controller (Xbox One Controller) detected with rumble support, GUID:030000005e040000d102000002010000
+onepad: controller (Microsoft X-Box 360 pad) detected, GUID:03000000de280000ff11000001000000
+onepad: controller (Xbox One Controller) detected with rumble support, GUID:030000005e040000d102000002010000
+onepad: controller (Microsoft X-Box 360 pad) detected, GUID:03000000de280000ff11000001000000
+
+EE DECI2 Manager version 0.06 Sep  5 2006 12:57:08
+  CPUID=2e20, BoardID=0, ROMGEN=2008-0220, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_208.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLUS_208.24;1) Game CRC = 0x612542D0, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_208.24;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_208.24;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_208.24;1
+0 00100000 002e3534 ...............................................
+Loaded, cdrom0:¥SLUS_208.24;1
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+Get Reboot Request From EE
+GSdx Lookup CRC:612542D0
+GSdx Lookup CRC:612542D0
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 25, ret 0
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 26, ret 0
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 27, ret 0
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 28, ret 2
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 29, ret 2
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 30, ret 0
+loadbuffer: addrres 44000 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadbuffer: id 31, ret 0
+loadbuffer: addrres 44000 args 0 arg 
+loadbuffer: id 32, ret 0
+loadbuffer: addrres 44000 args 43 arg hub=1
+USB Driver (Version 1.1.0)
+loadbuffer: id 33, ret 2
+loadbuffer: addrres 44000 args 0 arg hub=1
+LgDev_tb_rb_Driver version 1.06
+loadbuffer: id 34, ret 0
+loadbuffer: addrres 44000 args 0 arg hub=1
+USB Keyboard Driver 1.03
+Max Keyboards : 2
+Debug level : 0
+loadbuffer: id 35, ret 2
+loadbuffer: addrres 44000 args 21 arg 0x067b
+USB Keyboard Driver 1.03
+Max Keyboards : 2
+Debug level : 0
+loadbuffer: id 36, ret 2
+loadmodule: fname cdrom0:¥SYSTEM¥DEV9.IRX args 0 arg 
+dev9: unknown dev9 hardware.
+loadmodule: id 37, ret 1
+loadbuffer: addrres 44000 args 18 arg mem=96KB
+INET (Version 1.90.0) DEBUG REMOVABLE
+inet: mem=96KB thpri=48 thstack=8192
+inet: debug=0x0 &debug=f2fe0 &free_{size,min}=f3164,f3168
+loadbuffer: id 38, ret 2
+loadbuffer: addrres 44000 args 67 arg icon=cdrom0:¥ONLINE¥PS2ICON.ICO
+loadbuffer: id 39, ret 2
+loadbuffer: addrres 44000 args 20 arg -no_auto
+loadbuffer: id 40, ret 2
+loadbuffer: addrres 44000 args 0 arg -no_auto
+loadbuffer: id 41, ret 2
+loadbuffer: addrres 44000 args 0 arg -no_auto
+loadbuffer: id 42, ret 2
+loadbuffer: addrres 44000 args 0 arg -no_auto
+AN986 (Version 1.49.0 Wed Oct 24 18:23:11 JST 2001)
+loadbuffer: id 43, ret 0
+loadbuffer: addrres 44000 args 0 arg -no_auto
+Multi-thread available sifrpc module...
+loadbuffer: id 44, ret 0
+loadbuffer: addrres 44000 args 0 arg -no_auto
+loadbuffer: id 45, ret 0
+loadbuffer: addrres 44000 args 18 arg rpc=0
+lgAud version 1.08 (built on May 21 2003 at 15:18:36)
+	* thread priority 48
+	* no RPC server (no access from EE)
+loadbuffer: id 46, ret 0
+loadbuffer: addrres 44000 args 0 arg rpc=0
+EA VOIP 2.6 16:3 (Jul 11 2003 18:46:55), thpri=48
+loadbuffer: id 47, ret 0
+searchbyname: module name dev9
+searchbyname: return -202
+loadbuffer: addrres 44000 args 0 arg rpc=0
+loadbuffer: id -200, ret 0
+loadmodule: fname cdrom0:¥SYSTEM¥SMAP.IRX args 0 arg 
+loadmodule: id -200, ret 0
+loadbuffer: addrres 44000 args 39 arg dial=cdrom0:¥CNF¥DIAL_SPD.CNF;1
+loadbuffer: id -200, ret 0
+loadmodule: fname cdrom0:¥SYSTEM¥SPDUART.IRX args 39 arg dial=cdrom0:¥CNF¥DIAL_SPD.CNF;1
+loadmodule: id -200, ret 0
+loadbuffer: addrres 44000 args 0 arg dial=cdrom0:¥CNF¥DIAL_SPD.CNF;1
+loadbuffer: id 48, ret 0
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59.94 fps
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Plugins closed successfully.
+	HotSwapping to new ISO src image!
+HLE Notice: ELF does not have a path.
+
+Opening plugins...
+	Opening GS
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: option value of option mesa_glthread ignored.
+mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Failed to init the freetype face
+	Opening PAD
+	Opening SPU2
+ERROR: Effect is not uploaded! Haptic: Effect not supported by haptic device.
+Delete 0 Shaders, 73 Programs, 28 Pipelines
+EGL: Supported extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_MESA_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+EGL: select X11 platform
+Current Renderer: OpenGL (Hardware renderer)
+Available VRAM/RAM:139MB for textures
+GSdx Lookup CRC:612542D0
+GSdx Lookup CRC:612542D0
+onepad: controller (Xbox One Controller) detected with rumble support, GUID:030000005e040000d102000002010000
+onepad: controller (Microsoft X-Box 360 pad) detected, GUID:03000000de280000ff11000001000000
+Request SDL audio driver: pulseaudio
+	Opening CDVD
+Opened SDL audio driver: pulseaudio
+isoFile open ok: /home/ollie/documents/games/ps2/Gran Turismo 4 (USA) (v1.01).iso
+	Image type  = DVD
+isoFile: second layer found at sector 0x001418c0
+ * CDVD Disk Open: DVD, Double layer:
+ * * Track 1: Data (Mode 1) (2594960 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+Failed to GetNetAdapter()
+McdSlot 0 [File]: /home/ollie/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/ollie/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+	Bios Found: Europe  v02.30(20/02/2008)  Console
+	BIOS r module not found, skipping...
+	BIOS r module not found, skipping...
+	BIOS e module not found, skipping...
+EE/iR5900-32 Recompiler Reset
+# Initialize memory (rev:4.00, ctm:393Mhz, cpuclk:295Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2008-0220, IOP info (CPUID=1f, CACH_CONFIG=14000200, 2MB, IOP mode)
+ <20080220-175343,ROMconf,PS20230WC20080220.bin:11824>
+# Total accessable memory size: 32 MB (B:2:8:0) (400:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Sep  5 2006 12:57:08
+  CPUID=2e20, BoardID=0, ROMGEN=2008-0220, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SCUS_973.28;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SCUS_973.28;1) Game CRC = 0x77E61C8A, EntryPoint = 0x01000008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SCUS_973.28;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SCUS_973.28;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SCUS_973.28;1
+1 01000000 0002dc54 ...
+2 0102dc80 00013aa4 ...
+Loaded, cdrom0:¥SCUS_973.28;1
+start address 0x1000008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Elf entry point @ 0x01000008 about to get recompiled. Load patches first.
+(GameDB) Changing VU0/VU1 clamp mode [mode=2]
+EE/iR5900-32 Recompiler Reset
+sce_fileio: unrecognized code ff
+GSdx Lookup CRC:77E61C8A
+GSdx Lookup CRC:77E61C8A
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥IRX¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IRX¥MTAPMAN.IRX;1 args 0 arg 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥IRX¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 27, ret 2
+loadmodule: fname cdrom0:¥IRX¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 28, ret 2
+loadmodule: fname cdrom0:¥IRX¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Get Reboot Request From EE
+CMD_READP call
+CMD_READP call
+CMD_READP call
+CMD_READP call
+CMD_READP call
+CMD_READP call
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+cdvd driver module version 0.1.1 (C)SCEI
+loadmodule: fname cdrom0:¥IRX¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IRX¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 26, ret 2
+loadmodule: fname cdrom0:¥IRX¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 27, ret 2
+loadmodule: fname cdrom0:¥IRX¥SIO2D.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥IRX¥DBCMAN.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥IRX¥DS2U_D.IRX;1 args 0 arg 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IRX¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 31, ret 0
+loadmodule: fname cdrom0:¥IRX¥USBD.IRX;1 args 0 arg 
+USB Driver (Version 1.4.0)
+loadmodule: id 32, ret 2
+loadmodule: fname cdrom0:¥IRX¥INET.IRX;1 args 0 arg 
+INET (Version 2.25.0) DEBUG REMOVABLE
+inet: mem=128KB thpri=48 thstack=8192
+inet: debug=0x0 &debug=baa80 &free_{size,min}=bac04,bac08
+loadmodule: id 33, ret 2
+loadmodule: fname cdrom0:¥IRX¥NETCNF.IRX;1 args 62 arg icon=cdrom0:¥NET¥SYS_NET.ICO;1
+loadmodule: id 34, ret 2
+loadmodule: fname cdrom0:¥IRX¥INETCTL.IRX;1 args 20 arg -no_decode
+loadmodule: id 35, ret 2
+loadmodule: fname cdrom0:¥IRX¥DEV9.IRX;1 args 0 arg 
+dev9: unknown dev9 hardware.
+loadmodule: id 36, ret 1
+Unknown device 'dev9x'
+Known devices are  mc:(Memory Card)  cdrom:(CD-ROM )  rom:(ROM/Flash)  tty:(CONSOLE) 
+loadmodule: fname cdrom0:¥IRX¥MSIFRPC.IRX;1 args 0 arg 
+Multi-thread available sifrpc module...
+loadmodule: id 37, ret 0
+loadmodule: fname cdrom0:¥IRX¥LIBPDI.IRX;1 args 0 arg 
+loadmodule: id 38, ret 0
+loadmodule: fname cdrom0:¥IRX¥PDICDVD.IRX;1 args 0 arg 
+loadmodule: id 39, ret 0
+loadmodule: fname cdrom0:¥IRX¥PDISPU2.IRX;1 args 0 arg 
+loadmodule: id 40, ret 0
+loadmodule: fname cdrom0:¥IRX¥PDISTR.IRX;1 args 0 arg 
+loadmodule: id 41, ret 0
+loadmodule: fname cdrom0:¥IRX¥PDIUSB.IRX;1 args 0 arg 
+loadmodule: id 42, ret 0
+loadmodule: fname cdrom0:¥IRX¥USTORAGE.IRX;1 args 0 arg 
+loadmodule: id 43, ret 2
+loadmodule: fname cdrom0:¥IRX¥LGDEV.IRX;1 args 0 arg 
+LgDev_tb_rb_Driver Version 1.11.036 (PDI branch), Rooz special, built on Jan 27 2005 at 19:18:45, thpri=42,43
+  dynamic memory allocations
+loadmodule: id 44, ret 0
+loadmodule: fname cdrom0:¥IRX¥POWOFF.IRX;1 args 0 arg 
+loadmodule: id 45, ret 0
+loadmodule: fname cdrom0:¥IRX¥RTINETB.IRX;1 args 14 arg -send_delay=3
+libnetb version: 1.10.0005 (09.22.2004.01.44.53)
+libnetb: delay between sends = 3 msecs
+loadmodule: id 46, ret 0
+Unknown device 'dev9x'
+Available VRAM is very low (-5020873), a crash is expected ! Disable Larger framebuffer or reduce upscaling!
+GSDX OUT OF MEMORY
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Plugins closed successfully.
+Shutting down plugins...
+Plugins shutdown successfully.
+(GameDB) Unloading...
