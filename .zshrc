@@ -1,4 +1,9 @@
-clear
+c(){
+	clear
+	bash ~/.local/bin/fetch.sh
+}
+c
+
 DISABLE_AUTO_TITLE="true"
 #autocomplete
 autoload -U compinit promptinit
@@ -43,8 +48,18 @@ alias ytdlmp3='youtube-dl -x --audio-format mp3 "$1"'
 alias sx='startx'
 alias btop='btop --utf-force'
 alias ls='ls --color=auto'
-alias c='clear'
-alias update='sudo dnf update'
+alias up='sudo dnf update --refresh'
+
+temp(){
+	all="$(sensors)"
+	cpu="$(echo $all | grep 'CPU' | awk '{printf $2"\n"}' | sed 's/+//g')"
+	gpu="$(echo $all | grep 'edge' | awk '{printf $2"\n"}' | sed 's/+//g')"
+	battery="$(echo $all | grep Other | awk '{printf $2"\n"}' | sed 's/+//g')"
+	
+	echo "cpu: $cpu"
+	echo "gpu: $gpu"
+	echo "battery: $battery"
+}
 
 export PATH=$HOME"/platform-tools:$PATH"
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
