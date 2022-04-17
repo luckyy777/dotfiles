@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=mpd
+Exec=/home/ollie/.local/bin/mpd-startup
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
