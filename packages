@@ -1,4 +1,3 @@
-alacarte
 alacritty
 brave-browser
 btop
@@ -30,17 +29,11 @@ playerctl
 polymc
 qbittorrent
 qgnomeplatform-qt5
-rpmfusion-free-release-35-1.noarch
-rpmfusion-nonfree-release-35-1.noarch
-shim
-sqlite
 steam
-sxhkd
 texlive-scheme-basic
 torbrowser-launcher
 tumbler
 unrar
-util-linux-user
 visualboyadvance-m
 xorg-x11-font-utils
 zathura
@@ -52,3 +45,4 @@ celluloid
 qjackctl
 zathura-plugins-all
 radeontop
+pcsx2
