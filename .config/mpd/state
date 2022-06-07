@@ -1,10 +1,10 @@
-sw_volume: 50
+sw_volume: 32
 audio_device_state:1:PipeWire Sound Server
 state: pause
-current: 9
-time: 25.874000
-random: 1
-repeat: 0
+current: 23
+time: 9.390000
+random: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
@@ -33,15 +33,18 @@ playlist_begin
 19:Lovejoy - Pebble Brain/You'll Understand When You're Older.mp3
 20:Lovejoy - Pebble Brain/The Fall.mp3
 21:Lovejoy - Pebble Brain/It's All Futile! It's All Pointless!.mp3
-22:Twenty One Pilots - Blurryface/Ride.mp3
-23:Twenty One Pilots - Blurryface/Fairly Local.mp3
-24:Twenty One Pilots - Blurryface/Polarize.mp3
-25:Twenty One Pilots - Blurryface/Message Man.mp3
-26:Twenty One Pilots - Blurryface/Hometown.mp3
-27:Twenty One Pilots - Trench/Nico And The Niners.mp3
-28:Twenty One Pilots - Trench/Cut My Lip.mp3
-29:Twenty One Pilots - Vessel/Fake You Out.mp3
-30:Twenty One Pilots - Vessel/Kitchen Sink.mp3
-31:Twenty One Pilots - Vessel/Lovely.mp3
-32:Twenty One Pilots - Vessel/Forest.mp3
+22:Fall Out Boy - M A N I A/Stay Frosty Royal Milk Tea.mp3
+23:Fall Out Boy - M A N I A/The Last Of The Real Ones.mp3
+24:Fall Out Boy - M A N I A/Hold Me Tight Or Don't.mp3
+25:Fall Out Boy - M A N I A/Wilson (Expensive Mistakes).mp3
+26:Arctic Monkeys - AM/R U Mine_.mp3
+27:Arctic Monkeys - AM/Do I Wanna Know_.mp3
+28:Arctic Monkeys - AM/One For the Road.mp3
+29:Arctic Monkeys - AM/Arabella.mp3
+30:Arctic Monkeys - AM/Snap Out of It.mp3
+31:Arctic Monkeys - AM/Knee Socks.mp3
+32:Arctic Monkeys - AM/Why'd You Only Call Me When You're High_.mp3
+33:Arctic Monkeys - Whatever People Say I Am, That's What I'm Not/Still take you home.mp3
+34:Arctic Monkeys - Whatever People Say I Am, That's What I'm Not/You probably couldn't see for the lights but you were looking straight at me.mp3
+35:dodie - Build A Problem/Guiltless.mp3
 playlist_end
