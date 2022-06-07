@@ -45,4 +45,7 @@ case "$ext" in
 esac
 
 echo -e "\n words: $(cat "$file" | wc -w)"
-echo -e "\n words without headings: $(cat "$file" | grep --invert-match '\\' | wc -w)"
+lines_with_colour="$(cat $file | grep '\\color{' | wc -w)"
+lines_without_colour="$(cat "$file" | grep --invert-match '\\' | wc -w)"
+words_without_headings="$(($lines_with_colour + $lines_without_colour))"
+echo -e "\n words without headings: $words_without_headings"

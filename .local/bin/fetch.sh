@@ -45,16 +45,19 @@ get_network(){
 get_mpd(){
 	if [ "$(pgrep "mpDris2")" != "" ]; then
 		status="$(playerctl --player=mpd status)"
-	        mpd="$(playerctl --player=mpd metadata --format "{{ artist }} - {{ title }}")"
 
         	case "$status" in
         	        Stopped)
-        	                suffix="(stopped)"
+        	                suffix="stopped"
+				echo "$suffix"
+				exit 0
         	        ;;
         	        Paused)
         	                suffix="(paused)"
         	        ;;
       	  	esac
+
+	        mpd="$(playerctl --player=mpd metadata --format "{{ artist }} - {{ title }}")"
 
         	char="$(echo $mpd | wc -m)"
         	suffix_char="$(echo $suffix | wc -m)"
