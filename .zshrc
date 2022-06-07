@@ -44,11 +44,13 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 fi
 
 #aliases
-alias ytdlmp3='youtube-dl -x --audio-format mp3 "$1"'
+alias ytdlmp3='yt-dlp -x --audio-format mp3'
 alias sx='startx'
 alias btop='btop --utf-force'
 alias ls='ls --color=auto'
 alias up='sudo dnf update --refresh'
+alias cvd='civ-v-drafter'
+alias todo='nvim ~/documents/todo'
 
 temp(){
 	all="$(sensors)"
